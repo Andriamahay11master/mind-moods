@@ -1,8 +1,10 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import joblib
 from preprocessing import clean_text
 
 app = Flask(__name__)
+CORS(app)  # ✅ allow React frontend to talk to Flask
 
 # Load model & vectorizer
 model = joblib.load("../sentiment_model.pkl")
