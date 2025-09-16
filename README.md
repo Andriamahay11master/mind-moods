@@ -78,6 +78,10 @@ Predicted Sentiment: Positive
 
 ---
 
+# Prediction using GUI interface
+
+python src/gui_app.py
+
 ## 👨‍💻 Author
 
 **Andriamahay Henikaja IRIMANANA**
