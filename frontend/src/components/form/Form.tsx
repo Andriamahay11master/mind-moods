@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import "./form.scss";
 export function Form() {
   const [text, setText] = useState("");
   const [result, setResult] = useState("");
@@ -36,7 +36,7 @@ export function Form() {
         value={text}
         onChange={(e) => setText(e.target.value)}
       ></textarea>
-      <button onClick={handlePredict}>🔍 Predict Sentiment</button>
+      <button onClick={handlePredict}>Predict Sentiment 🔍</button>
       {result && (
         <h2>
           Sentiment:{" "}
