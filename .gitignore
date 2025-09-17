@@ -234,3 +234,6 @@ dist-ssr
 *.sln
 *.sw?
 
+#vite
+frontend/.vite
+
