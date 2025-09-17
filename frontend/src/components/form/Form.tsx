@@ -30,6 +30,7 @@ export function Form() {
   return (
     <div className="container">
       <h1>🧠 MindMoods Sentiment Classifier</h1>
+      <p>Enter your text below, especially in english :</p>
       <textarea
         rows={4}
         placeholder="Type your text here..."
